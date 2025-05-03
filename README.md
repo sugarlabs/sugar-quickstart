@@ -277,3 +277,24 @@ Move these files to a Sugar Desktop Environment, and run these commands:
     ./setup.py dev
 
 The icon should appear on the sugar desktop, or in the activities list, and be available for testing.
+---
+
+## 💻 Developer Setup Instructions
+
+This project is built for the Sugar Learning Platform.
+
+### 🧰 Recommended Environment
+
+Since Sugar is Linux-based, you should preferably:
+
+- Use a Linux machine **OR**
+- Install [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install) on Windows
+
+### 🛠 Dependencies
+
+- Python 3
+- Sugar Toolkit: `sugar-toolkit-gtk3`
+
+To install the Sugar Toolkit on Linux:
+```bash
+sudo apt install sugar-toolkit-gtk3
